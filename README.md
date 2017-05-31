@@ -5,13 +5,13 @@ This simple addon for the minion docker image is developed because of the need w
 ## Build
 
 ```
-docker build -t jepma/minio-testbase:RELEASE.2017-05-05T01-14-51Z .
+docker build -t jepmam/minio-testbase:RELEASE.2017-05-05T01-14-51Z .
 ```
 
 ## Example
 
 ```
-docker run --rm -p 9000:9000 -e MINIO_ACCESS_KEY=ABCD12EFG3HI45J67KLM -e MINIO_SECRET_KEY=ABCD12EFG3HI45J67KLM jepma/minio-testbase:RELEASE.2017-05-05T01-14-51Z /usr/bin/minio-start demo-bucket-01 demo-bucket-02
+docker run --rm -p 9000:9000 -e MINIO_ACCESS_KEY=ABCD12EFG3HI45J67KLM -e MINIO_SECRET_KEY=ABCD12EFG3HI45J67KLM jepmam/minio-testbase:RELEASE.2017-05-05T01-14-51Z /usr/bin/minio-start demo-bucket-01 demo-bucket-02
 ```
 
 ## Tags
